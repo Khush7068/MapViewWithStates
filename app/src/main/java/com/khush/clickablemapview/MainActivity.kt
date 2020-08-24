@@ -1,19 +1,11 @@
-package com.androar.clickablemapview
+package com.khush.clickablemapview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.core.content.ContextCompat
 import com.richpath.RichPath
 import kotlinx.android.synthetic.main.activity_main.*
 
-/**
- * Used to display an Indian map view in SVG and display what state was selected using
- * Rich Path Library
- *
- * @since July - 11 - 2020
- * @author goforbg
- */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +25,9 @@ class MainActivity : AppCompatActivity() {
                 }
                 "Tamil Nadu" -> {
                     onboarding_region.text = "Tamil Nadu"
+                }
+                "Delhi" -> {
+                    onboarding_region.text = "Delhi"
                 }
                 "Rajasthan" -> {
                     onboarding_region.text = "Rajasthan"

@@ -1,4 +1,4 @@
-package com.androar.clickablemapview
+package com.khush.clickablemapview
 
 import org.junit.Test
 
